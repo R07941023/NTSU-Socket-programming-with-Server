@@ -1,0 +1,5 @@
+index,parameter
+his,False
+gauss_blur,False
+winsize,"(5, 5)"
+sigma,80
