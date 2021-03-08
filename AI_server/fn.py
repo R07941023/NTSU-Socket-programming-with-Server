@@ -138,11 +138,11 @@ class socket_model(object):
                     test_set = TensorDataset(torch.FloatTensor(X), torch.LongTensor(Y))
                     test_loader = torch.utils.data.DataLoader(dataset=test_set, batch_size=1, shuffle=False)
                     test_pre, test_detail = DL_Model.model_build(epoch=1, model=model, loss_function=loss_function, optimizer=optimizer, model_type=opt.model_type).run(data_loader=test_loader, type='validation')
-                    # if test_pre[0] == 1:
-                    #     conn.send(('T' + image_path).encode())
-                    # else:
-                    #     conn.send(('F' + image_path).encode())
-                    conn.send(('T' + image_path).encode())
+                    if test_pre[0] == 1:
+                        conn.send(('T' + image_path).encode())
+                    else:
+                        conn.send(('F' + image_path).encode())
+                    # conn.send(('T' + image_path).encode())
                 else:
                     conn.send(('F'+image_path).encode())
         conn.close()
