@@ -196,6 +196,7 @@
 				<Item Name="IMAQ GetImageInfo" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ GetImageInfo"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
+				<Item Name="IMAQ Convert Overlay Settings To Internal" Type="VI" URL="/&lt;vilib&gt;/vision/Contour.llb/IMAQ Convert Overlay Settings To Internal"/>
 			</Item>
 			<Item Name="create_NG_folder.vi" Type="VI" URL="../function/create_NG_folder.vi"/>
 			<Item Name="DAQNavi_LV.dll" Type="Document" URL="/C/Windows/System32/DAQNavi_LV.dll"/>
@@ -248,6 +249,13 @@
 			<Item Name="image_processing.vi" Type="VI" URL="../image_processing.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="fitting_padding_array.vi" Type="VI" URL="../function/fitting_padding_array.vi"/>
+			<Item Name="SHA-1.vi" Type="VI" URL="../SHA-1 LV8/SHA-1.vi"/>
+			<Item Name="SHA-1 Pad.vi" Type="VI" URL="../SHA-1 LV8/SHA-1 Pad.vi"/>
+			<Item Name="SHA-1 Core.vi" Type="VI" URL="../SHA-1 LV8/SHA-1 Core.vi"/>
+			<Item Name="SHA-1 Digest.vi" Type="VI" URL="../SHA-1 LV8/SHA-1 Digest.vi"/>
+			<Item Name="boolean_inverse.vi" Type="VI" URL="../function/boolean_inverse.vi"/>
+			<Item Name="check_point_inside_rect.vi" Type="VI" URL="../function/check_point_inside_rect.vi"/>
+			<Item Name="time_name.vi" Type="VI" URL="../function/time_name.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="G163" Type="EXE">

@@ -18,4 +18,4 @@ if __name__ == '__main__':
     max_transfer_speed = 999999999  # byte/s
 
     # start the server
-    fn.socket_model(host='127.0.0.1', port=port, max_transfer_speed=max_transfer_speed).socket_server(channel_max=channel_max, filter_PWD=filter_PWD, pwd_whitelist=pwd_whitelist)
+    fn.socket_model(host='10.1.200.94', port=port, max_transfer_speed=max_transfer_speed).socket_server(channel_max=channel_max, filter_PWD=filter_PWD, pwd_whitelist=pwd_whitelist)
