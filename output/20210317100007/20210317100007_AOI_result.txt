@@ -1,0 +1,1 @@
+Name	Pre_rotate	NG_code	Cycle_time	SOT	Capture	Inspection	Saving	AIT	EOT	UPH
