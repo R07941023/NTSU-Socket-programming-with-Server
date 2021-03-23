@@ -29,7 +29,6 @@
 		<Item Name="AOI_Main.vi" Type="VI" URL="../AOI_Main.vi"/>
 		<Item Name="IO_TEST.vi" Type="VI" URL="../IO_TEST.vi"/>
 		<Item Name="TimeFlow_for_泰克.vi" Type="VI" URL="../TimeFlow_for_泰克.vi"/>
-		<Item Name="parameter.txt" Type="Document" URL="../parameter.txt"/>
 		<Item Name="pwd.vi" Type="VI" URL="../pwd.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -197,6 +196,10 @@
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 				<Item Name="IMAQ Convert Overlay Settings To Internal" Type="VI" URL="/&lt;vilib&gt;/vision/Contour.llb/IMAQ Convert Overlay Settings To Internal"/>
+				<Item Name="IVA Mask from ROI.vi" Type="VI" URL="/&lt;vilib&gt;/vision/Vision Assistant Utils.llb/IVA Mask from ROI.vi"/>
+				<Item Name="Imaq Dispose" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/Imaq Dispose"/>
+				<Item Name="ROI Descriptor" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/ROI Descriptor"/>
+				<Item Name="IMAQ Overlay ROI" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay ROI"/>
 			</Item>
 			<Item Name="create_NG_folder.vi" Type="VI" URL="../function/create_NG_folder.vi"/>
 			<Item Name="DAQNavi_LV.dll" Type="Document" URL="/C/Windows/System32/DAQNavi_LV.dll"/>
@@ -209,7 +212,6 @@
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="np_astype_str.vi" Type="VI" URL="../function/np_astype_str.vi"/>
 			<Item Name="re_create_folder.vi" Type="VI" URL="../function/re_create_folder.vi"/>
 			<Item Name="files_in_folder.vi" Type="VI" URL="../function/files_in_folder.vi"/>
 			<Item Name="load_single_image.vi" Type="VI" URL="../function/load_single_image.vi"/>
@@ -256,6 +258,12 @@
 			<Item Name="boolean_inverse.vi" Type="VI" URL="../function/boolean_inverse.vi"/>
 			<Item Name="check_point_inside_rect.vi" Type="VI" URL="../function/check_point_inside_rect.vi"/>
 			<Item Name="time_name.vi" Type="VI" URL="../function/time_name.vi"/>
+			<Item Name="ROI_coord2array.vi" Type="VI" URL="../function/ROI_coord2array.vi"/>
+			<Item Name="points2contour.vi" Type="VI" URL="../function/points2contour.vi"/>
+			<Item Name="contours2ROI.vi" Type="VI" URL="../function/contours2ROI.vi"/>
+			<Item Name="array2ROI.vi" Type="VI" URL="../function/array2ROI.vi"/>
+			<Item Name="ROI_point2corner.vi" Type="VI" URL="../function/ROI_point2corner.vi"/>
+			<Item Name="match_secondary_file.vi" Type="VI" URL="../function/match_secondary_file.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="G163" Type="EXE">
@@ -289,7 +297,7 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/parameter.txt</Property>
+				<Property Name="Source[2].itemID" Type="Ref"></Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_companyName" Type="Str">光?科技股份有限公司</Property>

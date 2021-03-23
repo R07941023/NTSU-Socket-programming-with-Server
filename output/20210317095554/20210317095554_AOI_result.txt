@@ -1,3 +1,0 @@
-Name	Pre_rotate	NG_code	Cycle_time	SOT	Capture	Inspection	Saving	AIT	EOT	UPH
-D:\OneDrive - LITE-ON TECHNOLOGY CORP\mydata\labview\SMD\G163\program\labview_code\output\20210317095554\No_sample\20210317095556228.bmp		343		1679		1497		32		137		13		0		0		0
-
